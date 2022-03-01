@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Grotto_Controller_WPF_2022.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="cLocalCons" Type="System.String" Scope="User">
+      <Value Profile="(Default)">a,b,c,d,e,f,g,h</Value>
+    </Setting>
+    <Setting Name="cPin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cElfNames" Type="System.String" Scope="User">
+      <Value Profile="(Default)">a,b,c,d,e,f,g,h</Value>
+    </Setting>
+    <Setting Name="cFTPUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cFTPPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cFTPHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cFTPPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cFTPSaved" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cFTPChild" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cFTPAdult" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cFTPFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cFTPFamily" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cMonitorTimer" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cElfUpdateRed" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cElfUpdateBlue" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cCheckinTimer" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cUserCheckIn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="cLocalSave" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cGrottoNames" Type="System.String" Scope="User">
+      <Value Profile="(Default)">a,b,c,d,e,f,g,h</Value>
+    </Setting>
+    <Setting Name="cMonitorLoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\ashcr\Desktop\Xmas Test File\Monitor</Value>
+    </Setting>
+    <Setting Name="cDepartureLoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\ashcr\Desktop\Xmas Test File\Departure Board</Value>
+    </Setting>
+    <Setting Name="cBackupLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
