@@ -1,0 +1,123 @@
+﻿<Window x:Class="Grotto_Controller_WPF_2022.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grotto_Controller_WPF_2022"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Grotto Controller" Foreground="Black" FontSize="14" >
+                <Grid Background="#003B73">
+                    <GroupBox HorizontalAlignment="Left" Height="288" Header="GroupBox" Margin="10,107,0,0" VerticalAlignment="Top" Width="711">
+                        <Grid Height="371">
+                            <Label Content="Grotto 1" HorizontalAlignment="Left" Margin="0,37,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label Name ="lblG1GName" Content="Grotto Name" HorizontalAlignment="Left" Margin="67,37,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label Name ="lblG1EName" Content="Elf Name" HorizontalAlignment="Left" Margin="163,37,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label Name ="lblG1Status" Content="Status" HorizontalAlignment="Left" Margin="234,37,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Button Name ="cmdG1" Content="Send to Grotto 1" HorizontalAlignment="Left" Margin="423,40,0,0" VerticalAlignment="Top" Width="116" Background="White">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="20"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button Name ="cmdG1OR" Content="Override" HorizontalAlignment="Left" Margin="544,40,0,0" VerticalAlignment="Top" Width="86" Background="#FFBFD7ED">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="20"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Label Name ="lblG1Family" Content="Family Name" HorizontalAlignment="Left" Margin="302,37,0,0" VerticalAlignment="Top" Foreground="White" Width="116"/>
+                            <Button Name ="cmdG1Call" Content="Call" HorizontalAlignment="Left" Margin="635,40,0,0" VerticalAlignment="Top" Width="67" Background="White">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="20"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Label Content="Grotto 1" HorizontalAlignment="Left" Margin="0,65,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1GName_Copy" Content="Grotto Name" HorizontalAlignment="Left" Margin="67,65,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1EName_Copy" Content="Elf Name" HorizontalAlignment="Left" Margin="163,65,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1Status_Copy" Content="Status" HorizontalAlignment="Left" Margin="234,65,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Button x:Name ="cmdG1_Copy" Content="Send to Grotto 1" HorizontalAlignment="Left" Margin="423,68,0,0" VerticalAlignment="Top" Width="116"/>
+                            <Button x:Name ="cmdG1OR_Copy" Content="Override" HorizontalAlignment="Left" Margin="544,68,0,0" VerticalAlignment="Top" Width="86"/>
+                            <Label x:Name ="lblG1Family_Copy" Content="Family Name" HorizontalAlignment="Left" Margin="302,65,0,0" VerticalAlignment="Top" Foreground="White" Width="116"/>
+                            <Button x:Name ="cmdG1Call_Copy" Content="Call" HorizontalAlignment="Left" Margin="635,68,0,0" VerticalAlignment="Top" Width="67"/>
+                            <Label Content="Grotto 1" HorizontalAlignment="Left" Margin="0,93,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1GName_Copy1" Content="Grotto Name" HorizontalAlignment="Left" Margin="67,93,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1EName_Copy1" Content="Elf Name" HorizontalAlignment="Left" Margin="163,93,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1Status_Copy1" Content="Status" HorizontalAlignment="Left" Margin="234,93,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Button x:Name ="cmdG1_Copy1" Content="Send to Grotto 1" HorizontalAlignment="Left" Margin="423,96,0,0" VerticalAlignment="Top" Width="116"/>
+                            <Button x:Name ="cmdG1OR_Copy1" Content="Override" HorizontalAlignment="Left" Margin="544,96,0,0" VerticalAlignment="Top" Width="86"/>
+                            <Label x:Name ="lblG1Family_Copy1" Content="Family Name" HorizontalAlignment="Left" Margin="302,93,0,0" VerticalAlignment="Top" Foreground="White" Width="116"/>
+                            <Button x:Name ="cmdG1Call_Copy1" Content="Call" HorizontalAlignment="Left" Margin="635,96,0,0" VerticalAlignment="Top" Width="67"/>
+                            <Label Content="Grotto 1" HorizontalAlignment="Left" Margin="0,121,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1GName_Copy2" Content="Grotto Name" HorizontalAlignment="Left" Margin="67,121,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1EName_Copy2" Content="Elf Name" HorizontalAlignment="Left" Margin="163,121,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1Status_Copy2" Content="Status" HorizontalAlignment="Left" Margin="234,121,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Button x:Name ="cmdG1_Copy2" Content="Send to Grotto 1" HorizontalAlignment="Left" Margin="423,124,0,0" VerticalAlignment="Top" Width="116"/>
+                            <Button x:Name ="cmdG1OR_Copy2" Content="Override" HorizontalAlignment="Left" Margin="544,124,0,0" VerticalAlignment="Top" Width="86"/>
+                            <Label x:Name ="lblG1Family_Copy2" Content="Family Name" HorizontalAlignment="Left" Margin="302,121,0,0" VerticalAlignment="Top" Foreground="White" Width="116"/>
+                            <Button x:Name ="cmdG1Call_Copy2" Content="Call" HorizontalAlignment="Left" Margin="635,124,0,0" VerticalAlignment="Top" Width="67"/>
+                            <Label Content="Grotto 1" HorizontalAlignment="Left" Margin="0,149,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1GName_Copy3" Content="Grotto Name" HorizontalAlignment="Left" Margin="67,149,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1EName_Copy3" Content="Elf Name" HorizontalAlignment="Left" Margin="163,149,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1Status_Copy3" Content="Status" HorizontalAlignment="Left" Margin="234,149,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Button x:Name ="cmdG1_Copy3" Content="Send to Grotto 1" HorizontalAlignment="Left" Margin="423,152,0,0" VerticalAlignment="Top" Width="116"/>
+                            <Button x:Name ="cmdG1OR_Copy3" Content="Override" HorizontalAlignment="Left" Margin="544,152,0,0" VerticalAlignment="Top" Width="86"/>
+                            <Label x:Name ="lblG1Family_Copy3" Content="Family Name" HorizontalAlignment="Left" Margin="302,149,0,0" VerticalAlignment="Top" Foreground="White" Width="116"/>
+                            <Button x:Name ="cmdG1Call_Copy3" Content="Call" HorizontalAlignment="Left" Margin="635,152,0,0" VerticalAlignment="Top" Width="67"/>
+                            <Label Content="Grotto 1" HorizontalAlignment="Left" Margin="0,177,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1GName_Copy4" Content="Grotto Name" HorizontalAlignment="Left" Margin="67,177,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1EName_Copy4" Content="Elf Name" HorizontalAlignment="Left" Margin="163,177,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1Status_Copy4" Content="Status" HorizontalAlignment="Left" Margin="234,177,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Button x:Name ="cmdG1_Copy4" Content="Send to Grotto 1" HorizontalAlignment="Left" Margin="423,180,0,0" VerticalAlignment="Top" Width="116"/>
+                            <Button x:Name ="cmdG1OR_Copy4" Content="Override" HorizontalAlignment="Left" Margin="544,180,0,0" VerticalAlignment="Top" Width="86"/>
+                            <Label x:Name ="lblG1Family_Copy4" Content="Family Name" HorizontalAlignment="Left" Margin="302,177,0,0" VerticalAlignment="Top" Foreground="White" Width="116"/>
+                            <Button x:Name ="cmdG1Call_Copy4" Content="Call" HorizontalAlignment="Left" Margin="635,180,0,0" VerticalAlignment="Top" Width="67"/>
+                            <Label Content="Grotto 1" HorizontalAlignment="Left" Margin="0,205,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1GName_Copy5" Content="Grotto Name" HorizontalAlignment="Left" Margin="67,205,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1EName_Copy5" Content="Elf Name" HorizontalAlignment="Left" Margin="163,205,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1Status_Copy5" Content="Status" HorizontalAlignment="Left" Margin="234,205,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Button x:Name ="cmdG1_Copy5" Content="Send to Grotto 1" HorizontalAlignment="Left" Margin="423,208,0,0" VerticalAlignment="Top" Width="116"/>
+                            <Button x:Name ="cmdG1OR_Copy5" Content="Override" HorizontalAlignment="Left" Margin="544,208,0,0" VerticalAlignment="Top" Width="86"/>
+                            <Label x:Name ="lblG1Family_Copy5" Content="Family Name" HorizontalAlignment="Left" Margin="302,205,0,0" VerticalAlignment="Top" Foreground="White" Width="116"/>
+                            <Button x:Name ="cmdG1Call_Copy5" Content="Call" HorizontalAlignment="Left" Margin="635,208,0,0" VerticalAlignment="Top" Width="67"/>
+                            <Label Content="Grotto 1" HorizontalAlignment="Left" Margin="0,233,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1GName_Copy6" Content="Grotto Name" HorizontalAlignment="Left" Margin="67,233,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1EName_Copy6" Content="Elf Name" HorizontalAlignment="Left" Margin="163,233,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Label x:Name ="lblG1Status_Copy6" Content="Status" HorizontalAlignment="Left" Margin="234,233,0,0" VerticalAlignment="Top" Foreground="White"/>
+                            <Button x:Name ="cmdG1_Copy6" Content="Send to Grotto 1" HorizontalAlignment="Left" Margin="423,236,0,0" VerticalAlignment="Top" Width="116"/>
+                            <Button x:Name ="cmdG1OR_Copy6" Content="Override" HorizontalAlignment="Left" Margin="544,236,0,0" VerticalAlignment="Top" Width="86"/>
+                            <Label x:Name ="lblG1Family_Copy6" Content="Family Name" HorizontalAlignment="Left" Margin="302,233,0,0" VerticalAlignment="Top" Foreground="White" Width="116"/>
+                            <Button x:Name ="cmdG1Call_Copy6" Content="Call" HorizontalAlignment="Left" Margin="635,236,0,0" VerticalAlignment="Top" Width="67"/>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Settings" Foreground="Black" FontSize="14">
+                <Grid Background="#003B73">
+                    <PasswordBox Name ="txtPassword" HorizontalAlignment="Left" Height="52" Margin="341,10,0,0" VerticalAlignment="Top" Width="295" KeyDown="txtPassword_KeyDown"/>
+                    <Button Name ="cmdCheckPassword" Background="White" HorizontalAlignment="Left" Margin="651,10,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Normal" Height="52" Width="133" Click="cmdCheckPassword_Click">
+                        <Button.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button Name ="cmdDownloadAll" Content="Download FTP" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" FontStyle="Normal" Height="52" Width="133" Click="cmdCheckPassword_Click" Margin="76,137,0,0">
+                        <Button.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
